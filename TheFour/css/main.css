@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(49, 49, 70);
+}
+
+/* Top left round shape (cyan) */
+
+#upperLeftDiv {
+    position: fixed;
+    height: 150px;
+    width: 150px;
+    background-color: cyan;
+    border-radius: 0 0 360px 0;
+    transition: 0.15s linear;
+}
+
+#upperLeftDiv:hover {
+    height: 175px;
+    width: 175px;
+    transition: 0.15s linear;
+}
+
+/* Top right round shape (yellow) */
+
+#upperRightDiv {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 0 0 0 360px;
+    transition: 0.15s linear;
+}
+
+#upperRightDiv:hover {
+    height: 175px;
+    width: 175px;
+    transition: 0.15s linear;
+}
+
+/* Bottom right round shape (crimson) */
+
+#bottomRightDiv {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 150px;
+    width: 150px;
+    background-color: crimson;
+    border-radius: 360px 0 0 0px;
+    transition: 0.15s linear;
+}
+
+#bottomRightDiv:hover {
+    height: 175px;
+    width: 175px;
+    transition: 0.15s linear;
+}
+
+/* Bottom left round shape (green) */
+
+#bottomLeftDiv {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    border-radius: 0 360px 0 0px;
+    transition: 0.15s linear;
+}
+
+#bottomLeftDiv:hover {
+    height: 175px;
+    width: 175px;
+    transition: 0.15s linear;
+}
